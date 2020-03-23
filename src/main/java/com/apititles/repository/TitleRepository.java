@@ -8,6 +8,6 @@ import com.apititles.main.Title;
 
 public interface TitleRepository extends JpaRepository<Title, Long>{
 	
-	public List<Title> findBycodeContaining(String code);
+	public List<Title> findByCodeContaining(String code);
 	
 }
